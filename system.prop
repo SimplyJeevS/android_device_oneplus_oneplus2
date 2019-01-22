@@ -29,7 +29,7 @@ bluetooth.enable_timeout_ms=12000
 vendor.qcom.bluetooth.soc=rome
 
 # Camera
-camera.disable.zsl_mode=true
+camera.disable_zsl_mode=true
 persist.camera.HAL3.enabled=1
 
 # CEC
@@ -86,6 +86,9 @@ mmp.enable.3g2=true
 vidc.debug.perf.mode=2
 vidc.dec.120fps.enabled=1
 vidc.enc.dcvs.extra-buff-count=2
+
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
 
 # QC vendor extension
 ro.vendor.extension_library=libqti-perfd-client.so
