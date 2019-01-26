@@ -282,6 +282,14 @@ PRODUCT_PACKAGES += \
     init.tfa.sh \
     tinyplay
 
+# Telephony
+PRODUCT_PACKAGES += \
+    qti-telephony-common \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # TextClassifier
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
