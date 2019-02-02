@@ -128,3 +128,6 @@ ro.qc.sdk.camera.facialproc=false
 
 # Time services
 persist.timed.enable=true
+
+# Havoc
+ro.havoc.maintainer=SimplyJeevS
